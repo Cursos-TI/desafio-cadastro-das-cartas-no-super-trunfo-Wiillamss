@@ -24,7 +24,7 @@ int main() {
     float pibpercapita1, pibpercapita2, pibpercapita3, pibpercapita4; // PIB total dividido pela população
     float superpoder1, superpoder2, superpoder3, superpoder4; // Poder de cada carta = é a soma de variaveis
 
-    // Dados para a primeira cidade
+    // Entrada de Dados para a primeira cidade
 
     printf(" *** Digite os dados da primeira cidade *** \n");
 
@@ -50,7 +50,7 @@ int main() {
     pibpercapita1 = pib1 / populacao1;
     superpoder1 = populacao1 + area1 + pib1 + turisticos1;
 
-    // Dados da segunda cidade
+    // Entrada de Dados da segunda cidade
 
     printf(" *** Digite os dados da segunda cidade *** \n");
 
@@ -76,7 +76,7 @@ int main() {
     pibpercapita2 = pib2 / populacao2;
     superpoder2 = populacao2 + area2 + pib2 + turisticos2;
 
-// Dados da terceira cidade
+// Entrada de Dados da terceira cidade
 
     printf(" *** Digite os dados da terceira cidade *** \n");
 
@@ -102,7 +102,7 @@ int main() {
     pibpercapita3 = pib3 / populacao3;
     superpoder3 = populacao3 + area3 + pib3 + turisticos3;
 
-// Dados da quarta cidade
+// Entrada de Dados da quarta cidade
 
     printf(" *** Digite os dados da quarta cidade *** \n");
 
@@ -144,7 +144,7 @@ int main() {
     printf("O PIB per capita por pessoa é: %.2f reais\n", pibpercapita1);
     printf("O poder da carta é de: %.2f pontos\n", superpoder1);
 
-    //Segunda Carta
+    // Segunda Carta
 
     printf(" *** Dados da segunda carta *** \n");
     printf("A letra que representa o estado de São Paulo é: %c\n", estado1);
@@ -187,7 +187,7 @@ int main() {
     printf("O poder da carta é de: %.2f pontos\n", superpoder4);
 
     // Comparação entre cartas = 1 para sim e 0 para não
-    printf("A comparação entre as Cartas se A01 menor ou igual A04: %d\n", superpoder1 <= superpoder2);
+    printf("A comparação entre as Cartas se A01 é menor ou igual A04: %d\n", superpoder1 <= superpoder2);
 
 return 0;
 }
