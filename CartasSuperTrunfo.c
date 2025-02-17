@@ -186,8 +186,8 @@ int main() {
     printf("O PIB per capita por pessoa é: %.2f reais\n", pibpercapita4);
     printf("O poder da carta é de: %.2f pontos\n", superpoder4);
 
-    // Comparação entre cartas
-    printf("A comparação entre as Cartas se A01 <= A04: %f\n, superpoder1 <= superpoder4");
+    // Comparação entre cartas = 1 para sim e 0 para não
+    printf("A comparação entre as Cartas se A01 menor ou igual A04: %d\n", superpoder1 <= superpoder2);
 
 return 0;
 }
