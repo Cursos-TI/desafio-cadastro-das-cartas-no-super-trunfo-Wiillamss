@@ -96,6 +96,7 @@ int main() {
     printf("A área total é: %.2f Km²\n", area3);
     printf("O PIB que representa a cidade é: %.2f Milhões de reais\n", pib3);
     printf("A quantidade de pontos turísticos é: %d\n", turisticos3);
-   
+
+    
 return 0;
 }
