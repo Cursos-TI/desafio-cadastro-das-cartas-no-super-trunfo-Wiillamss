@@ -49,6 +49,19 @@ int main() {
     printf("Digite a quantidade de pontos turísticos: \n");
     scanf("%d", &turisticos1);
 
+// Comandos de exibição das Cartas
+    
+    //Primeira Carta
+
+    printf(" *** Dados da primeira carta *** \n");
+    printf("A letra que representa o estado é: %c\n", estado1);   
+    printf("O código que representa a carta é: %s\n", codigodacidade1);
+    printf("O nome da cidade é: %s\n", cidade1);
+    printf("A quantidade de população é: %d pessoas\n", populacao1);
+    printf("A área total é: %.2f Km²\n", area1);
+    printf("O PIB que representa a cidade é: %.2f Milhões de reais\n", pib1);
+    printf("A quantidade de pontos turísticos é: %d\n", turisticos1);
+
     // Entrada de Dados da segunda carta
 
     printf(" *** Digite os dados da segunda carta *** \n");
@@ -75,16 +88,6 @@ int main() {
     scanf("%d", &turisticos3);
 
 // Comandos de exibição das Cartas
-    //Primeira Carta
-
-    printf(" *** Dados da primeira carta *** \n");
-    printf("A letra que representa o estado é: %c\n", estado1);   
-    printf("O código que representa a carta é: %s\n", codigodacidade1);
-    printf("O nome da cidade é: %s\n", cidade1);
-    printf("A quantidade de população é: %d pessoas\n", populacao1);
-    printf("A área total é: %.2f Km²\n", area1);
-    printf("O PIB que representa a cidade é: %.2f Milhões de reais\n", pib1);
-    printf("A quantidade de pontos turísticos é: %d\n", turisticos1);
     
     // Segunda Carta
 
