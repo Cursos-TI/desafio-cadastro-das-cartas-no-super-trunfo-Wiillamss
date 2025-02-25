@@ -103,7 +103,7 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos: \n");
     scanf("%d", &turisticos3);
-
+    
     densidade_populacional3 = (float) populacao3 / area3; // Atribuição a variavel densidade_populacional3
     pib_per_capita3 = (float) pib3 / populacao3; // Atribuição a variavel pib_per_capita3
     inverso_densidade3 = 1.0 / densidade_populacional3; // Atribuição a variavel inverso_densidade3
@@ -130,7 +130,7 @@ int main() {
 
     printf("\n"); // Deixando um espaço entre as informações
 
-    // Realizando as comparações das cartas com base em cada informação
+    // Nivel Mestre - Realizando as comparações das cartas com base em cada informação
 
     // Exibindo o resultado na tela 
 
